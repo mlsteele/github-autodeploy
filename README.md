@@ -12,6 +12,7 @@ Edit config.json to point to the repositories you want to be pulled when the hoo
 If you want to change what port the autodeploy server listens on, change the port entry in config.json
 
 Run
+
     $ coffee autodeploy.coffee
 to start the autodeploy server.
 
