@@ -1,4 +1,5 @@
 {
+  "port": 8413,
   "repos_paths": [
       "/Users/miles/code/github-autodeploy/testrepos/http-server",
       "/Users/miles/code/github-autodeploy/testrepos/Pset-0"
