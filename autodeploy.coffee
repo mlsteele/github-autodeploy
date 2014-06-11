@@ -22,6 +22,7 @@ pull = (repo_path) ->
 config = require './config.json'
 
 server = http.createServer (req, res) ->
+  # pull all repos on any request.
   pull repo_path for repo_path in config.repos_paths
   res.writeHead 200
   res.end 'Ok.\n'
